@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link type="text/plain" rel="author" href="http://codeforhamptonroads.org/humans.txt" />
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -296,9 +297,7 @@
 <script src="bootstrap-tooltip.js"></script>
 <script>
 $(function() {
-  if ($(".carousel-caption").length) {
-    var memberbox = "<div class='memberbox'><h2>Members Checked In:</h2></div>";
-    $(memberbox).appendTo(".carousel-caption");	
+  if ($(".carousel-caption").length) {	
     $(document).ready(function(){
       $.getJSON("http://api.meetup.com/2/events?status=upcoming&order=time&limited_events=False&group_urlname=Code-for-Hampton-Roads&desc=false&offset=0&format=json&page=20&fields=&sig_id=7997287&sig=1e967902e7837fbd5625d4397b299dc608a6943d&callback=?",function(upcomingData) {
         $.each(upcomingData.results, function(i,upcomingData){
@@ -310,6 +309,8 @@ $(function() {
               var dataMemberId = checkinData.member_id;
               var memberPixSum = "";
               $.getJSON("https://api.meetup.com/2/member/"+checkinData.member_id+"?key=02f79626a462ad15683f216361606&&sign=true&page=20&callback=?", function(memberData) {
+                var memberbox = "<div class='memberbox'><h2>Members Checked In:</h2></div>";
+                $(memberbox).appendTo(".carousel-caption");
                 var toolTips = "<a class='tip' href='#' data-toggle='tooltip' data-placement='bottom' data-original-title='"+memberData.name+"'>";
                 var memberPix = "<img alt='"+memberData.name+"' class='pix-thumb' src='"+memberData.photo.photo_link+"' />";
                 toolTips+=memberPix;

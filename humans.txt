@@ -1,0 +1,100 @@
+/* TEAM */
+	Captain: Kevin Curry
+	GitHub: 
+	Twitter: @kmcurry
+	From VA Beach, VA
+
+	Captain: Bret Fisher
+	GitHub: 
+	Twitter: @BretFisher
+	From: 
+
+	Captain: Stanley Zheng
+	GitHub:
+	Twitter: @
+	From: Norfolk, VA
+
+	Brigadeer: Ben Schoenfield
+	GitHub: 
+	Twitter: @ollytheotter
+	From: Portsmouth, VA
+
+	Brigadeer: Albert Bowden
+	GitHub: jalbertbowden@gmail.com 
+	Twitter: @jalbertbowdenii
+	From: Poquoson, VA
+
+	Brigadeer: Lookmai Rattana
+	Behance: 
+	Twitter: @
+	From: 
+
+	Brigadeer: Adam Sterrett
+	GitHub: 
+	Twitter: @
+	From: Suffolk, VA
+
+	Brigadeer: Brendan Barsness
+	Github: 
+	Twitter: @
+	From: 
+
+	Brigadeer:Mylin Gonzalez
+	Behance: 
+	Twitter: @
+	From: Virginia Beach, VA
+
+	Brigadeer: Trisha Tobias
+	Behance: 
+	Twitter: @
+	From: 
+
+	Brigadeer: Byron Wright
+	Github: 
+	Twitter: @
+	From: Virginia Beach, VA
+
+	Brigadeer: Raelshark
+	Github: 
+	Twitter: @
+	From: 
+
+	Brigadeer: John Boisselle
+	Github: 
+	Twitter: @
+	From: 
+
+	Brigadeer: Robert Chrzanowski
+	Github: 
+	Twitter: @
+	From: 
+
+	Brigadeer: Blaine Price
+	Github: 
+	Twitter: @
+	From: 
+
+	Brigadeer: Mitch Christow
+	Github: 
+	Twitter: @
+	From:
+
+	Brigadeer: Jonathan Edwards
+	Github: 
+	Twitter: @
+	From: 
+
+/* THANKS */
+
+	World Wide Web Creator: Sir Tim Berners-Lee
+	Leadership: Code for America (http://codeforamerica.org)
+	Venue Sponsor: 757 Creative Space (Norfolk) ()
+	Venue Sponsor: BridgeBorn (VA Beach) http://www.bridgeborn.com/
+	
+
+/* SITE */
+	Last update:2013/05/16
+	Language: English-US
+	Doctype:HTML5
+	IDE: Sublime Text, Notepad, jEdit, FileZilla
+	Technologies: HTML5, CSS3, jQuery, Twitter Bootstrap, Meetup API
